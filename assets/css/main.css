@@ -5499,17 +5499,20 @@ body.dm-light .pan-loader .shadow {
         width: 120px;
         height: 80px;
     }
-    .logo__box::before {
-        width: 100px;
-        height: 100px;
+    .logo__box {
+        display: none;
     }
+    /* .logo__box::before {
+        width: 0;
+        height: 0;
+    } */
     .logo__img--full {
         display: none;
     }
     .logo__img-small {
         display: block;
-        max-width: 60px;
-        top: -17px;
+        /* max-width: 60px; */
+        top: 10px;
     }
     .page-header__top {
         margin-top: 0;
