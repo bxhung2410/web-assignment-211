@@ -2,7 +2,7 @@
     class User{
 
         function sign_up(){
-
+            
         }
 
         function log_in(){

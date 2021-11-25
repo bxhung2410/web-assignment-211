@@ -3,7 +3,7 @@
         <div class="uk-container">
           <div class="page-footer__logo">
             <div class="logo">
-              <a class="logo__link" href="home.html"><img class="logo__img" src="../../../assignment/public/assets/img/logococoon.png" alt="logo"></a>
+              <a class="logo__link" href="http://localhost/assignment/Home/index"><img class="logo__img" src="../../../assignment/public/assets/img/logococoon.png" alt="logo"></a>
             </div>
           </div>
           <div class="page-footer__contacts">
@@ -25,10 +25,10 @@
       <div class="page-footer__middle">
         <div class="uk-container">
           <ul class="uk-navbar-nav">
-            <li><a href="/">Trang chủ</a></li>
-            <li><a href="page-catalog.html">Sản phẩm</a></li>
-            <li><a href="page-blog.html">Tin tức</a></li>
-            <li><a href="page-contacts.html">Liên hệ</a></li>
+            <li><a href="http://localhost/assignment/Home/index">Trang chủ</a></li>
+            <li><a href="http://localhost/assignment/Home/catalog">Sản phẩm</a></li>
+            <li><a href="http://localhost/assignment/News/index">Tin tức</a></li>
+            <li><a href="http://localhost/assignment/Home/contact">Liên hệ</a></li>
           </ul>
         </div>
       </div>
@@ -50,17 +50,15 @@
         <div class="uk-offcanvas-bar"><button class="uk-offcanvas-close" type="button" data-uk-close=""></button>
           <div class="uk-margin-top">
             <ul class="uk-nav">
-              <li><a href="/">Trang chủ</a></li>
-              <li><a href="page-blog-article.html">Về chúng tôi</a></li>
-              <li><a href="page-catalog-sidebar.html">Đặt hàng</a></li>
-              <li><a href="page-catalog.html">Sản phẩm</a></li>
-              <li><a href="page-blog.html">Tin tức</a></li>
-              <li><a href="page-contacts.html">Liên hệ</a></li>
+              <li><a href="http://localhost/assignment/Home/index">Trang chủ</a></li>
+              <li><a href="http://localhost/assignment/Home/catalog">Sản phẩm</a></li>
+              <li><a href="http://localhost/assignment/News/index">Tin tức</a></li>
+              <li><a href="http://localhost/assignment/Home/contact">Liên hệ</a></li>
             </ul>
           </div>
           <hr class="uk-margin">
           <ul class="uk-nav uk-nav-parent-icon" data-uk-nav>
-            <li class="uk-parent"><a href="page-catalog.html">Chăm sóc da</a>
+            <li class="uk-parent"><a href="http://localhost/assignment/Home/catalog">Chăm sóc da</a>
               <ul class="uk-nav-sub">
                 <li><a href="page-product.html">Serum</a></li>
                 <li><a href="page-product.html">Tonner</a></li>
@@ -69,21 +67,21 @@
               </ul>
             </li>
 
-            <li class="uk-parent"><a href="page-catalog.html">Chăm sóc cơ thể</a>
+            <li class="uk-parent"><a href="http://localhost/assignment/Home/catalog">Chăm sóc cơ thể</a>
               <ul class="uk-nav-sub">
                 <li><a href="page-product.html">Tẩy tế bào chết body</a></li>
                 <li><a href="page-product.html">Sữa dưỡng thể</a></li>
               </ul>
             </li>
 
-            <li class="uk-parent"><a href="page-catalog.html">Chăm sóc tóc</a>
+            <li class="uk-parent"><a href="http://localhost/assignment/Home/catalog">Chăm sóc tóc</a>
               <ul class="uk-nav-sub">
                 <li><a href="page-product.html">Serum dưỡng tóc</a></li>
                 <li><a href="page-product.html">Xịt dưỡng tóc</a></li>
               </ul>
             </li>
 
-            <li class="uk-parent"><a href="page-catalog.html">Chăm sóc môi</a>
+            <li class="uk-parent"><a href="http://localhost/assignment/Home/catalog">Chăm sóc môi</a>
               <ul class="uk-nav-sub">
                 <li><a href="page-product.html">Tẩy tế bào chết môi</a></li>
                 <li><a href="page-product.html">Son dưỡng môi</a></li>

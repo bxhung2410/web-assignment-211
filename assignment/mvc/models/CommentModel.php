@@ -1,5 +1,5 @@
 <?php 
-    class OrderModel {
+    class CommentModel {
         
 
     }

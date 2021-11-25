@@ -16,3 +16,34 @@ Các file css/js/img... sẽ được đặt ở public/asset
 
 Muốn tạo đường dẫn CSS/JS file thì tạo ở layouts/application
 
+
+
+Các trang đã hoàn thành:
+
+http://localhost/assignment/
+
+http://localhost/assignment/Home/index
+
+
+http://localhost/assignment/Home/catalog
+
+
+http://localhost/assignment/News/index
+
+http://localhost/assignment/News/blog/1
+
+http://localhost/assignment/News/blog/2
+
+http://localhost/assignment/News/blog/3
+
+
+http://localhost/assignment/Home/contact
+
+
+http://localhost/assignment/Home/cart
+
+
+
+
+
+
