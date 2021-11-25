@@ -40,6 +40,9 @@ http://localhost/assignment/News/blog/3
 http://localhost/assignment/Home/contact
 
 
+http://localhost/assignment/Home/cart
+
+
 
 
 
