@@ -14,9 +14,6 @@
   <link rel="stylesheet" href="../../../assignment/public/assets/css/uikit.min.css">
   <link rel="stylesheet" href="../../../assignment/public/assets/css/main.css">
   <link id="dm-light" rel="stylesheet" href="../../../assignment/public/assets/css/light.css" >
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
 
 <body class="page-home dm-light">

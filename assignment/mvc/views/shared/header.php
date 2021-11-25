@@ -5,14 +5,14 @@
           <nav class="uk-navbar-container uk-navbar-transparent" data-uk-navbar="">
             <div class="uk-navbar-left"><button class="uk-button" type="button" data-target="#offcanvas" data-uk-toggle data-uk-icon="menu"></button>
               <ul class="uk-navbar-nav">
-                <li><a href="home.html">TRANG CHỦ</a></li>
-                <li><a href="page-catalog.html">SẢN PHẨM</a></li>
+                <li><a href="http://localhost/assignment/Home/index">TRANG CHỦ</a></li>
+                <li><a href="http://localhost/assignment/Home/catalog">SẢN PHẨM</a></li>
               </ul>
             </div>
             <div class="uk-navbar-center">
               <div class="logo">
                 <div class="logo__box">
-                  <a href="home.html"> 
+                  <a href="http://localhost/assignment/Home/index"> 
                     <img class="logo__img logo__img--full" src="../../../assignment/public/assets/img/logococoon.png" alt="logo">
                   </a>
                 </div>
@@ -21,8 +21,8 @@
             </div>
             <div class="uk-navbar-right">
               <ul class="uk-navbar-nav">
-                <li><a href="page-blog.html">TIN TỨC</a></li>
-                <li><a href="page-contacts.html">LIÊN HỆ</a></li>
+                <li><a href="http://localhost/assignment/News/index">TIN TỨC</a></li>
+                <li><a href="http://localhost/assignment/Home/contact">LIÊN HỆ</a></li>
               </ul>
             </div>
           </nav>
@@ -44,7 +44,7 @@
                 <ul class="other-links-list">
                   <li><a href="#modal-full" data-uk-toggle><span data-uk-icon="search"></span></a></li>
                   <li><a href="#!"><span data-uk-icon="user"></span></a></li>
-                  <li><a href="page-cart.html"><span data-uk-icon="cart"></span></a></li>
+                  <li><a href="../Home/cart"><span data-uk-icon="cart"></span></a></li>
                 </ul>
               </div>
             </div>

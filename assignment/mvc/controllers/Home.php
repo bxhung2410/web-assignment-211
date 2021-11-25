@@ -25,7 +25,8 @@
         }
 
         function cart(){
-
+            $layout = $this->view("layouts/application", ["page"=>"application/Home/cart", "header"=>"shared/header", "footer"=>"shared/footer"]);
+            echo $layout;
         }
     }
 ?>

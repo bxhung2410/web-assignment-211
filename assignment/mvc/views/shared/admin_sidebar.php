@@ -24,25 +24,25 @@
           </li>
 
           <li class="nav-item ">
-            <a class="js-nav-tooltip-link nav-link " href="http://localhost/Assignment/Category/index" title="" data-placement="left" data-original-title="Layouts">
+            <a class="js-nav-tooltip-link nav-link " href="http://localhost/assignment/Category/index" title="" data-placement="left" data-original-title="Layouts">
               <!-- Clipboard icon -->
               <span class="navbar-vertical-aside-mini-mode-hidden-elements text-truncate">Categories</span>
             </a>
           </li>
           <li class="nav-item ">
-            <a class="js-nav-tooltip-link nav-link " href="http://localhost/Assignment/Product/index" title="" data-placement="left" data-original-title="Layouts">
+            <a class="js-nav-tooltip-link nav-link " href="http://localhost/assignment/Product/index" title="" data-placement="left" data-original-title="Layouts">
               <!-- Icon product -->
               <span class="navbar-vertical-aside-mini-mode-hidden-elements text-truncate">Products</span>
             </a>
           </li>
           <li class="nav-item ">
-            <a class="js-nav-tooltip-link nav-link " href="http://localhost/Assignment/Customer/index" title="" data-placement="left" data-original-title="Layouts">
+            <a class="js-nav-tooltip-link nav-link " href="http://localhost/assignment/Customer/index" title="" data-placement="left" data-original-title="Layouts">
               <!-- Icon user friend -->
               <span class="navbar-vertical-aside-mini-mode-hidden-elements text-truncate">Customers</span>
             </a>
           </li>
           <li class="nav-item ">
-            <a class="js-nav-tooltip-link nav-link " href="http://localhost/Assignment/Order/index" title="" data-placement="left" data-original-title="Layouts">
+            <a class="js-nav-tooltip-link nav-link " href="http://localhost/assignment/Order/index" title="" data-placement="left" data-original-title="Layouts">
               <!-- Icon file alt -->
               <span class="navbar-vertical-aside-mini-mode-hidden-elements text-truncate">Orders</span>
             </a>
