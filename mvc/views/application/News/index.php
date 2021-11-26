@@ -68,7 +68,7 @@
                                 </div>
                                 <div class="article-intro__bottom">
                                     <div class="article-intro__tags"><i class="fas fa-tags"></i><span>SKINCARE, BODYCARE, EVENT</span></div>
-                                    <div class="article-intro__more"><a class="uk-button" href="../News/blog/1">Read More</a></div>
+                                    <div class="article-intro__more"><a class="uk-button" href="../News/blog/2">Read More</a></div>
                                 </div>
                             </div>
                         </article>
@@ -99,7 +99,7 @@
                                 </div>
                                 <div class="article-intro__bottom">
                                     <div class="article-intro__tags"><i class="fas fa-tags"></i><span>SKINCARE, ABOUTUS, ENVIRONMENT</span></div>
-                                    <div class="article-intro__more"><a class="uk-button" href="../News/blog/2">Read More</a></div>
+                                    <div class="article-intro__more"><a class="uk-button" href="../News/blog/3">Read More</a></div>
                                 </div>
                             </div>
                         </article>
@@ -121,7 +121,7 @@
                                 </div>
                                 <div class="article-intro__bottom">
                                     <div class="article-intro__tags"><i class="fas fa-tags"></i><span>SKINCARE, ABOUTUS, ENVIRONMENT</span></div>
-                                    <div class="article-intro__more"><a class="uk-button" href="../News/blog/3">Read More</a></div>
+                                    <div class="article-intro__more"><a class="uk-button" href="../News/blog/1">Read More</a></div>
                                 </div>
                             </div>
                         </article>
