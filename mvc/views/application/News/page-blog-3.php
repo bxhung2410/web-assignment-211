@@ -118,7 +118,7 @@
                             <div class="article-full__nav">
                                 <ul class="articles-nav-list">
                                     <li class="articles-nav-item">
-                                        <a class="articles-nav-item__link" href="../News/blog/1">
+                                        <a class="articles-nav-item__link" href="../../News/blog/2">
                                             <div class="articles-nav-item__img"><img src="../../../assignment/public/assets/img/blog/prev_post.jpg" alt="article-thumb"></div>
                                             <div class="articles-nav-item__info">
                                                 <div class="articles-nav-item__title">Hương tan muộn phiền - Đón Tết bình an</div>
@@ -128,7 +128,7 @@
                                         <div class="articles-nav-item__label">Prev Post</div>
                                     </li>
                                     <li class="articles-nav-item">
-                                        <a class="articles-nav-item__link" href="../News/blog/3">
+                                        <a class="articles-nav-item__link" href="../../News/blog/1">
                                             <div class="articles-nav-item__img"><img src="../../../assignment/public/assets/img/blog/next_post.jpg" alt="article-thumb"></div>
                                             <div class="articles-nav-item__info">
                                                 <div class="articles-nav-item__title">“Festive Gift From Dak Lak” - Quà tặng Giáng Sinh từ Đắk Lắk</div>

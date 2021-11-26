@@ -87,7 +87,7 @@
                             <div class="article-full__nav">
                                 <ul class="articles-nav-list">
                                     <li class="articles-nav-item">
-                                        <a class="articles-nav-item__link" href="../News/blog/1">
+                                        <a class="articles-nav-item__link" href="../../News/blog/2">
                                             <div class="articles-nav-item__img"><img src="../../../assignment/public/assets/img/blog/prev_post.jpg" alt="article-thumb"></div>
                                             <div class="articles-nav-item__info">
                                                 <div class="articles-nav-item__title">Hương tan muộn phiền - Đón Tết bình an
@@ -98,7 +98,7 @@
                                         <div class="articles-nav-item__label">Prev Post</div>
                                     </li>
                                     <li class="articles-nav-item">
-                                        <a class="articles-nav-item__link" href="../News/blog/2">
+                                        <a class="articles-nav-item__link" href="../../News/blog/3">
                                             <div class="articles-nav-item__img"><img src="../../../assignment/public/assets/img/blog/mid_post.jpg" alt="article-thumb"></div>
                                             <div class="articles-nav-item__info">
                                                 <div class="articles-nav-item__title">Cocoon - Tiên phong xu hướng mỹ phẩm thuần chay tại Việt Nam</div>
