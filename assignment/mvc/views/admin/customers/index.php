@@ -4,15 +4,13 @@
     <div class="col-sm mb-2 mb-sm-0">
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb breadcrumb-no-gutter">
-          <li class="breadcrumb-item"><a class="breadcrumb-link" href="#"></a></li>
+          <li class="breadcrumb-item"><a class="breadcrumb-link" href="http://localhost/Assignment/Customer/index"></a></li>
+          <!-- icon home -->
           <li class="breadcrumb-item active" aria-current="page">Customers</li>
         </ol>
       </nav>
 
-      <h1 class="page-header-title">Customers<span class="badge badge-soft-dark ml-2">0</span></h1>
-    </div>
-    <div class="col-sm-auto">
-        <a href="http://localhost/Assignment/Customer/new" class="btn btn-primary">Add customer</a>
+      <h1 class="page-header-title">Customers<span class="badge badge-soft-dark ml-2"><?php echo mysqli_num_rows($data["customers"])?></span></h1>
     </div>
   </div>
 </div>
@@ -29,17 +27,21 @@
       </thead>
 
       <tbody>
-      <% @customers.each do |customer| %>
+      <?php 
+        while($row = mysqli_fetch_array($data["customers"])){
+      ?>
         <tr>
-          <td><%= customer.id %></td>
-          <td><%= customer.name %></td>
-          <td><a href="http://localhost/Assignment/Customer/edit">Edit</td>
+          <td><?php echo $row["customer_id"] ?></td>
+          <td><?php echo $row["customer_name"] ?></td>
+          <td><a href="#">Edit</td>
           <td><a href="#">Delete</td>
         </tr>
-      <% end %>
+      <?php 
+        }
+      ?>
+      
       </tbody>
     </table>
   </div>
 </div>
-
 

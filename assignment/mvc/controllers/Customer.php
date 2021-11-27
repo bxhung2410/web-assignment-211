@@ -2,8 +2,8 @@
 
     class Customer extends Controller{
         function index(){
-
-            $layout = $this->view("layouts/admin", ["admin_page"=>"admin/customers/index", "admin_header"=>"shared/admin_header", "admin_sidebar"=>"shared/admin_sidebar"]); 
+            $customer = $this->model("CustomerModel");
+            $layout = $this->view("layouts/admin", ["admin_page"=>"admin/customers/index", "admin_header"=>"shared/admin_header", "admin_sidebar"=>"shared/admin_sidebar", "customers"=>$customer->getAllCustomer()]);
         }
 
         function new(){

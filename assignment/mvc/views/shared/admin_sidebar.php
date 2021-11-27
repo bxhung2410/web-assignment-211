@@ -47,6 +47,12 @@
               <span class="navbar-vertical-aside-mini-mode-hidden-elements text-truncate">Orders</span>
             </a>
           </li>
+          <li class="nav-item ">
+            <a class="js-nav-tooltip-link nav-link " href="http://localhost/assignment/Comment/index" title="" data-placement="left" data-original-title="Layouts">
+              <!-- Clipboard icon -->
+              <span class="navbar-vertical-aside-mini-mode-hidden-elements text-truncate">Comment</span>
+            </a>
+          </li>
         </ul>
       </div>
       <!-- End Content -->

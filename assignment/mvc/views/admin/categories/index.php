@@ -10,7 +10,7 @@
         </ol>
       </nav>
 
-      <h1 class="page-header-title">Categories<span class="badge badge-soft-dark ml-2">4</span></h1>
+      <h1 class="page-header-title">Categories<span class="badge badge-soft-dark ml-2"><?php echo mysqli_num_rows($data["categories"])?></span></h1>
     </div>
     <div class="col-sm-auto">
       <a href="http://localhost/Assignment/Category/new" class="btn btn-primary">Add Category</a>
@@ -30,14 +30,19 @@
       </thead>
 
       <tbody>
-      <% @categories.each do |category| %>
+      <?php 
+        while($row = mysqli_fetch_array($data["categories"])){
+      ?>
         <tr>
-          <td><%= category.id %></td>
-          <td><%= category.name %></td>
-          <td><a href="http://localhost/Assignment/Category/edit">Edit</td>
-          <td><a href="#">Delete</td>
+          <td><?php echo $row["category_id"] ?></td>
+          <td><?php echo $row["category_name"] ?></td>
+          <td><a href="http://localhost/Assignment/Category/edit/<?php echo $row["category_id"] ?>">Edit</td>
+          <td><a href="http://localhost/Assignment/Category/delete/<?php echo $row["category_id"] ?>">Delete</td>
         </tr>
-      <% end %>
+      <?php 
+        }
+      ?>
+      
       </tbody>
     </table>
   </div>

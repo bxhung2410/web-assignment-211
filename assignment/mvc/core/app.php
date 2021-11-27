@@ -21,6 +21,9 @@
             $this->controller = new $this->controller;
             //action process
             if(isset($arr[1])){
+                if (strlen(strstr($arr[1], ".php")) > 0) {
+                    $arr[1] = substr($arr[1], 0, strlen($arr[1])-4);
+                }
                 if(method_exists($this->controller, $arr[1])){
                     $this->action = $arr[1];
                 }

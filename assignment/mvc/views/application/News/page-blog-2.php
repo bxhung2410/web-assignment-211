@@ -5,7 +5,7 @@
     ?>
         <main class="page-main">
             <div class="section-first-screen">
-                <div class="first-screen__bg" style="background-image: url(assets/img/pages/contacts/bg1.jpg)"></div>
+                <div class="first-screen__bg" style="background-image: url(../../../assignment/public/assets/img/pages/contacts/bg1.jpg)"></div>
                 <div class="first-screen__content">
                     <div class="uk-container">
                         <nav class="category-nav">
@@ -13,21 +13,21 @@
                                 <ul class="uk-navbar-nav">
                                     <li>
                                         <a href="../Home/catalog">
-                                            <div class="nav-item"><span class="nav-item__icon"><img src="assets/img/icons/menu/face.png" alt="face care" data-uk-svg></span><span class="nav-item__text">chăm sóc da</span></div>
+                                            <div class="nav-item"><span class="nav-item__icon"><img src="../../../assignment/public/assets/img/icons/menu/face.png" alt="face care" data-uk-svg></span><span class="nav-item__text">chăm sóc da</span></div>
                                         </a>
                                         <li>
                                             <a href="../Home/catalog">
-                                                <div class="nav-item"><span class="nav-item__icon"><img src="assets/img/icons/menu/hair.png" alt="hair care" data-uk-svg></span><span class="nav-item__text">chăm sóc tóc</span></div>
+                                                <div class="nav-item"><span class="nav-item__icon"><img src="../../../assignment/public/assets/img/icons/menu/hair.png" alt="hair care" data-uk-svg></span><span class="nav-item__text">chăm sóc tóc</span></div>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="../Home/catalog">
-                                                <div class="nav-item"><span class="nav-item__icon"><img src="assets/img/icons/menu/lips.png" alt="lips care" data-uk-svg></span><span class="nav-item__text">chăm sóc môi</span></div>
+                                                <div class="nav-item"><span class="nav-item__icon"><img src="../../../assignment/public/assets/img/icons/menu/lips.png" alt="lips care" data-uk-svg></span><span class="nav-item__text">chăm sóc môi</span></div>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="../Home/catalog">
-                                                <div class="nav-item"><span class="nav-item__icon"><img src="assets/img/icons/menu/body.png" alt="body care" data-uk-svg></span><span class="nav-item__text">chăm sóc cơ thể</span></div>
+                                                <div class="nav-item"><span class="nav-item__icon"><img src="../../../assignment/public/assets/img/icons/menu/body.png" alt="body care" data-uk-svg></span><span class="nav-item__text">chăm sóc cơ thể</span></div>
                                             </a>
                                         </li>
                                 </ul>
@@ -56,7 +56,7 @@
                             <div class="article-full__comments"><i class="fas fa-comment"></i><span>10</span></div>
                         </div>
                         <div class="article-full__image">
-                            <a href="../News/blog/2"><img src="assets/img/blog/blog2_anh1.jpg" alt="img-article"></a>
+                            <a href="../News/blog/2"><img src="../../../assignment/public/assets/img/blog/blog2_anh1.jpg" alt="img-article"></a>
                         </div>
                         <div class="article-full__content">
                             <h1>Hương tan muộn phiền, đón tết bình an</h1>
@@ -66,7 +66,7 @@
                                 về với tự nhiên của mình. Đó là nốt hương nồng ấm từ khuynh diệp, nốt the lạnh của bạc hà và nốt ngọt thanh đầy hoang dại của hoa phong lữ. Một sự kết hợp hoàn hảo dành cho những ai đang mỏi mệt, đang kiếm tìm sự an yên
                                 từ trong tâm hồn. Và điều tuyệt vời là bạn có thể cảm nhận, có thể tận hưởng và chìm đắm trong “bản giao thoa” của những nốt hương ngay từ những ve vuốt nhẹ nhàng trên làn da cơ thể, ngay tại căn phòng tắm thân quen của
                                 mình, và điều đấy sẽ giúp bạn yêu việc tắm gội hơn bao giờ hết.</p>
-                            <div><img class="uk-width-1-1" src="assets/img/blog/blog2_anh2.jpg" alt="article"></div>
+                            <div><img class="uk-width-1-1" src="../../../assignment/public/assets/img/blog/blog2_anh2.jpg" alt="article"></div>
 
                             <p style="font-size: 16.5;">Bộ sưu tập "HƯƠNG TAN MUỘN PHIỀN" sẽ mở đầu bằng 2 sản phẩm:</p>
                             <h3>1. Gel tắm khuynh diệp bạc hà</h3>
@@ -108,7 +108,7 @@
                                 <ul class="articles-nav-list">
                                     <li class="articles-nav-item">
                                         <a class="articles-nav-item__link" href="../News/blog/2">
-                                            <div class="articles-nav-item__img"><img src="assets/img/blog/mid_post.jpg" alt="article-thumb"></div>
+                                            <div class="articles-nav-item__img"><img src="../../../assignment/public/assets/img/blog/mid_post.jpg" alt="article-thumb"></div>
                                             <div class="articles-nav-item__info">
                                                 <div class="articles-nav-item__title">Cocoon - Tiên phong xu hướng mỹ phẩm thuần chay tại Việt Nam</div>
                                                 <div class="articles-nav-item__user"> <i class="fas fa-user"></i><span>By Cloudy Thy</span></div>
@@ -118,7 +118,7 @@
                                     </li>
                                     <li class="articles-nav-item">
                                         <a class="articles-nav-item__link" href="../News/blog/3">
-                                            <div class="articles-nav-item__img"><img src="assets/img/blog/next_post.jpg" alt="article-thumb"></div>
+                                            <div class="articles-nav-item__img"><img src="../../../assignment/public/assets/img/blog/next_post.jpg" alt="article-thumb"></div>
                                             <div class="articles-nav-item__info">
                                                 <div class="articles-nav-item__title">“Festive Gift From Dak Lak” - Quà tặng Giáng Sinh từ Đắk Lắk</div>
                                                 <div class="articles-nav-item__user"> <i class="fas fa-user"></i><span>By Cloudy Thy</span></div>
@@ -138,7 +138,7 @@
                                             <article class="uk-comment">
                                                 <header class="uk-comment-header">
                                                     <div class="uk-grid-small uk-grid-divider" data-uk-grid>
-                                                        <div class="uk-width-auto@s"><img class="uk-comment-avatar" src="./assets/img/blog/img-reviews-1.png" alt></div>
+                                                        <div class="uk-width-auto@s"><img class="uk-comment-avatar" src="./../../../assignment/public/assets/img/blog/img-reviews-1.png" alt></div>
                                                         <div class="uk-width-expand@s">
                                                             <div class="uk-flex uk-flex-middle uk-margin-small-bottom">
                                                                 <h4 class="uk-comment-title uk-margin-remove">Huy Khoa</h4><span class="uk-text-meta uk-margin-small-left">Jan 25, 2021</span>
@@ -155,7 +155,7 @@
                                                     <article class="uk-comment">
                                                         <header class="uk-comment-header">
                                                             <div class="uk-grid-small uk-grid-divider" data-uk-grid>
-                                                                <div class="uk-width-auto@s"><img class="uk-comment-avatar" src="./assets/img/blog/img-reviews-2.png" alt></div>
+                                                                <div class="uk-width-auto@s"><img class="uk-comment-avatar" src="./../../../assignment/public/assets/img/blog/img-reviews-2.png" alt></div>
                                                                 <div class="uk-width-expand@s">
                                                                     <div class="uk-flex uk-flex-middle uk-margin-small-bottom">
                                                                         <h4 class="uk-comment-title uk-margin-remove">Đông Phong</h4><span class="uk-text-meta uk-margin-small-left">Jan 25, 2021</span>
@@ -174,7 +174,7 @@
                                             <article class="uk-comment">
                                                 <header class="uk-comment-header">
                                                     <div class="uk-grid-small uk-grid-divider" data-uk-grid>
-                                                        <div class="uk-width-auto@s"><img class="uk-comment-avatar" src="./assets/img/blog/img-reviews-3.png" alt></div>
+                                                        <div class="uk-width-auto@s"><img class="uk-comment-avatar" src="./../../../assignment/public/assets/img/blog/img-reviews-3.png" alt></div>
                                                         <div class="uk-width-expand@s">
                                                             <div class="uk-flex uk-flex-middle uk-margin-small-bottom">
                                                                 <h4 class="uk-comment-title uk-margin-remove">Thủy Ngọc</h4><span class="uk-text-meta uk-margin-small-left">Jan 25, 2021</span>

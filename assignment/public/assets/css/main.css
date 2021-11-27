@@ -1,7 +1,7 @@
 @font-face {
     font-display: swap;
-    src: url("../fonts/KaushanScript-Regular.woff") format("woff"), url("../fonts/KaushanScript-Regular.woff2") format("woff2");
-    font-family: "KaushanScript";
+    src: url("../fonts/Lobster-Regular-Regular.woff") format("woff"), url("../fonts/Lobster-Regular-Regular.woff2") format("woff2");
+    font-family: "Lobster-Regular";
     font-style: normal;
     font-weight: 400;
 }
@@ -132,7 +132,7 @@ h6 {
     display: block;
     position: relative;
     margin: 0;
-    font-family: "KaushanScript";
+    font-family: "Lobster-Regular";
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
@@ -528,7 +528,7 @@ blockquote::before {
 
 .price-item {
     color: #ffffff;
-    font-family: "KaushanScript";
+    font-family: "Lobster-Regular";
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -1930,7 +1930,7 @@ body.dm-light .pan-loader .shadow {
 
 .product-item__price {
     margin-bottom: 35px;
-    font-family: "KaushanScript";
+    font-family: "Lobster-Regular";
     font-size: 18px;
     font-style: normal;
     letter-spacing: normal;
@@ -1939,7 +1939,7 @@ body.dm-light .pan-loader .shadow {
 }
 
 .product-item__price .value {
-    font-family: "KaushanScript";
+    font-family: "Lobster-Regular";
     font-size: 26px;
     font-weight: 400;
 }
@@ -2086,7 +2086,7 @@ body.dm-light .pan-loader .shadow {
 .product-card__price {
     margin-bottom: 40px;
     color: #ffffff;
-    font-family: "KaushanScript";
+    font-family: "Lobster-Regular";
     font-size: 18px;
 }
 
@@ -2198,7 +2198,7 @@ body.dm-light .pan-loader .shadow {
 .first-screen__title {
     margin: 0;
     color: #ffffff !important;
-    font-family: 'KaushanScript';
+    font-family: 'Lobster-Regular';
     font-size: 80px;
     font-style: normal;
     font-weight: 400;
@@ -2497,7 +2497,7 @@ body.dm-light .pan-loader .shadow {
 .banner-card__title {
     margin: 15px 0 22px;
     color: #ffffff !important;
-    font-family: "KaushanScript";
+    font-family: "Lobster-Regular";
     font-size: 36px;
     font-weight: 400;
     line-height: 1.2;
@@ -2901,7 +2901,7 @@ body.dm-light .pan-loader .shadow {
 
 .featured-deal-item__price {
     color: #ffffff;
-    font-family: "KaushanScript";
+    font-family: "Lobster-Regular";
     font-size: 18px;
     font-style: normal;
     letter-spacing: normal;
@@ -3238,7 +3238,7 @@ body.dm-light .pan-loader .shadow {
 
 .recommend-list-item__price {
     color: #ffffff;
-    font-family: "KaushanScript";
+    font-family: "Lobster-Regular";
 }
 
 .recommend-list-item__price .value {
@@ -3570,7 +3570,7 @@ body.dm-light .pan-loader .shadow {
 
 .product-full-card__price {
     margin-bottom: 35px;
-    font-family: "KaushanScript";
+    font-family: "Lobster-Regular";
     font-size: 18px;
     font-style: normal;
     letter-spacing: normal;
@@ -3578,7 +3578,7 @@ body.dm-light .pan-loader .shadow {
 }
 
 .product-full-card__price .value {
-    font-family: "KaushanScript";
+    font-family: "Lobster-Regular";
     font-size: 26px;
     font-weight: 400;
 }
@@ -3650,7 +3650,7 @@ body.dm-light .pan-loader .shadow {
     display: block;
     position: relative;
     color: rgba(34, 34, 34, 0.4);
-    font-family: "KaushanScript";
+    font-family: "Lobster-Regular";
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
@@ -4613,7 +4613,7 @@ body.dm-light .pan-loader .shadow {
 }
 
 .pizza-builder-order__title {
-    font-family: "KaushanScript";
+    font-family: "Lobster-Regular";
     font-size: 30px;
     font-weight: 400;
 }
@@ -4753,7 +4753,7 @@ body.dm-light .pan-loader .shadow {
 .pizza-builder-step__title .uk-h3 {
     margin: 0;
     color: #ffffff;
-    font-family: "KaushanScript";
+    font-family: "Lobster-Regular";
     font-size: 30px;
     font-weight: 400;
     line-height: 1;
@@ -4774,7 +4774,7 @@ body.dm-light .pan-loader .shadow {
     height: 65px;
     margin-right: 20px;
     color: #cc9b56;
-    font-family: "KaushanScript";
+    font-family: "Lobster-Regular";
     font-size: 48px;
     font-weight: 400;
     line-height: 1;
@@ -5014,7 +5014,7 @@ body.dm-light .pan-loader .shadow {
 .sause-item__price {
     display: block;
     color: #8c702f;
-    font-family: "KaushanScript";
+    font-family: "Lobster-Regular";
     font-size: 18px;
     font-weight: 400;
     text-align: center;
@@ -5162,7 +5162,7 @@ body.dm-light .pan-loader .shadow {
 .toppings-item__price {
     display: block;
     color: #8c702f;
-    font-family: "KaushanScript";
+    font-family: "Lobster-Regular";
     font-size: 18px;
     font-weight: 400;
     text-align: center;

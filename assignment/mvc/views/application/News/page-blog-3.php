@@ -5,7 +5,7 @@
         ?>
         <main class="page-main">
             <div class="section-first-screen">
-                <div class="first-screen__bg" style="background-image: url(assets/img/pages/contacts/bg3.jpg)"></div>
+                <div class="first-screen__bg" style="background-image: url(../../../assignment/public/assets/img/pages/contacts/bg3.jpg)"></div>
                 <div class="first-screen__content">
                     <div class="uk-container">
                         <nav class="category-nav">
@@ -13,21 +13,21 @@
                                 <ul class="uk-navbar-nav">
                                     <li>
                                         <a href="../Home/catalog">
-                                            <div class="nav-item"><span class="nav-item__icon"><img src="assets/img/icons/menu/face.png" alt="face care" data-uk-svg></span><span class="nav-item__text">chăm sóc da</span></div>
+                                            <div class="nav-item"><span class="nav-item__icon"><img src="../../../assignment/public/assets/img/icons/menu/face.png" alt="face care" data-uk-svg></span><span class="nav-item__text">chăm sóc da</span></div>
                                         </a>
                                     <li>
                                         <a href="../Home/catalog">
-                                            <div class="nav-item"><span class="nav-item__icon"><img src="assets/img/icons/menu/hair.png" alt="hair care" data-uk-svg></span><span class="nav-item__text">chăm sóc tóc</span></div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="../Home/catalog">
-                                            <div class="nav-item"><span class="nav-item__icon"><img src="assets/img/icons/menu/lips.png" alt="lips care" data-uk-svg></span><span class="nav-item__text">chăm sóc môi</span></div>
+                                            <div class="nav-item"><span class="nav-item__icon"><img src="../../../assignment/public/assets/img/icons/menu/hair.png" alt="hair care" data-uk-svg></span><span class="nav-item__text">chăm sóc tóc</span></div>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="../Home/catalog">
-                                            <div class="nav-item"><span class="nav-item__icon"><img src="assets/img/icons/menu/body.png" alt="body care" data-uk-svg></span><span class="nav-item__text">chăm sóc cơ thể</span></div>
+                                            <div class="nav-item"><span class="nav-item__icon"><img src="../../../assignment/public/assets/img/icons/menu/lips.png" alt="lips care" data-uk-svg></span><span class="nav-item__text">chăm sóc môi</span></div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../Home/catalog">
+                                            <div class="nav-item"><span class="nav-item__icon"><img src="../../../assignment/public/assets/img/icons/menu/body.png" alt="body care" data-uk-svg></span><span class="nav-item__text">chăm sóc cơ thể</span></div>
                                         </a>
                                     </li>
                                 </ul>
@@ -56,7 +56,7 @@
                             <div class="article-full__comments"><i class="fas fa-comment"></i><span>3</span></div>
                         </div>
                         <div class="article-full__image">
-                            <a href="../News/blog/2"><img src="assets/img/blog/blog1_anh1.jpg" alt="img-article"></a>
+                            <a href="../News/blog/2"><img src="../../../assignment/public/assets/img/blog/blog1_anh1.jpg" alt="img-article"></a>
                         </div>
                         <div class="article-full__content">
                             <h1>Cocoon - Tiên phong xu hướng mỹ phẩm thuần chay tại Việt Nam</h1>
@@ -69,12 +69,12 @@
                             <p>Sẽ không ai ngờ, quả bí đao ta ăn hàng ngày là nguyên liệu chủ đạo làm sạch da và kiểm soát dầu thừa, cà phê Đắk Lăk và bơ ca cao Tiền Giang trở thành sản phẩm tẩy da chết yêu thích của nhiều người, những đóa hồng tại Cao Bằng
                                 là “nguyên liệu vàng” cấp ẩm cho da… Mỗi sản vật đặc hữu từ thiên nhiên Việt Nam như thế đều được Cocoon khéo léo đưa vào các sản phẩm của mình. Từ mùi hương đến tên gọi đều mang đậm chất Việt Nam và bạn sẽ không thể nào
                                 nhầm lẫn với bất cứ thương hiệu nào khác trên thế giới.</p>
-                            <div><img class="uk-width-1-1" src="assets/img/blog/blog_1_anh2.jpg" alt="article"></div>
+                            <div><img class="uk-width-1-1" src="../../../assignment/public/assets/img/blog/blog_1_anh2.jpg" alt="article"></div>
                             <h3>2. Đón đầu xu hướng sử dụng mỹ phẩm của thế giới</h3>
                             <p>Khi vấn đề làm đẹp ngày càng cần thiết, con người cẩn trọng hơn với những gì đưa lên da và đề cao yếu tố nhân đạo thì mỹ phẩm thuần chay là xu hướng được nhiều người lựa chọn. Tại Việt Nam, Cocoon được biết đến là một trong
                                 những thương hiệu nội địa tiên phong trong lĩnh vực này. Họ cho ra đời các dòng sản phẩm thuần chay an toàn, lành tính, từ thực vật Việt Nam và không thử nghiệm trên động vật.</p>
                             <p>Lên kệ tại hơn 300 điểm bán hàng trên cả nước và phủ sóng tất cả các diễn đàn làm đẹp đã cho thấy Cocoon đang làm rất tốt trong việc lan tỏa giá trị nhân văn và hình thành thói quen sử dụng mỹ phẩm thuần chay cho người Việt.</p>
-                            <div><img class="uk-width-1-1" src="assets/img/blog/blog1_anh3.jpg" alt="article"></div>
+                            <div><img class="uk-width-1-1" src="../../../assignment/public/assets/img/blog/blog1_anh3.jpg" alt="article"></div>
 
                             <h3>3. Mỹ phẩm Việt Nam đầu tiên được chứng nhận không thử nghiệm trên động vật và thuần chay của tổ chức PETA</h3>
                             <p>Chứng nhận không thử nghiệm trên động vật và thuần chay của tổ chức bảo vệ động vật toàn cầu PETA là điều rất nhiều thương hiệu mỹ phẩm trên thế giới đang nỗ lực đạt được. Hiện tại, Cocoon là thương hiệu Việt Nam đầu tiên đạt
@@ -87,19 +87,19 @@
                                 không hạt vi nhựa (tẩy da chết)…</p>
 
                             <div class="uk-grid uk-child-width-1-2@s" data-uk-grid>
-                                <div><img class="uk-width-1-1" src="assets/img/blog/blog1_anh4.jpg" alt="article"></div>
-                                <div><img class="uk-width-1-1" src="assets/img/blog/blog1_anh5.jpg" alt="article"></div>
+                                <div><img class="uk-width-1-1" src="../../../assignment/public/assets/img/blog/blog1_anh4.jpg" alt="article"></div>
+                                <div><img class="uk-width-1-1" src="../../../assignment/public/assets/img/blog/blog1_anh5.jpg" alt="article"></div>
                             </div>
 
                             <h3>5. Đầu tư nghiêm túc cho hình thức sản phẩm</h3>
                             <p>Hình thức sản phẩm cũng là điều được Cocoon rất chú trọng, các thiết kế của họ luôn hướng đến môi trường, tất cả bao bì đều được làm bằng giấy thân thiện, không cán màng nhựa, chai lọ đựng sản phẩm có khả năng tái chế. Đặc
                                 biệt, Cocoon còn khéo léo đưa văn hóa tranh khắc gỗ Việt Nam vào logo của các nguyên liệu như: bí đao, cà phê, sa-chi, bưởi…</p>
-                            <div><img class="uk-width-1-1" src="assets/img/blog/blog1_anh6.jpg" alt="article"></div>
+                            <div><img class="uk-width-1-1" src="../../../assignment/public/assets/img/blog/blog1_anh6.jpg" alt="article"></div>
 
                             <h3>6. Lan tỏa giá trị tích cực</h3>
                             <p>Thời gian qua, thương hiệu không chỉ chinh phục người dùng bằng những sản phẩm chất lượng, bao bì ấn tượng mà còn truyền cảm hứng và lan tỏa những thông điệp tích cực qua nhiều chương trình ý nghĩa hướng đến môi trường.</p>
                             <blockquote style="font-size: 22px; font-style: italic;">Make Everyday Earth Day</blockquote>
-                            <div><img class="uk-width-1-1" src="assets/img/blog/blog1_anh7.jpg" alt="article"></div>
+                            <div><img class="uk-width-1-1" src="../../../assignment/public/assets/img/blog/blog1_anh7.jpg" alt="article"></div>
 
                             <div class="article-full__bottom">
                                 <div class="article-full__tags">
@@ -119,7 +119,7 @@
                                 <ul class="articles-nav-list">
                                     <li class="articles-nav-item">
                                         <a class="articles-nav-item__link" href="../News/blog/1">
-                                            <div class="articles-nav-item__img"><img src="assets/img/blog/prev_post.jpg" alt="article-thumb"></div>
+                                            <div class="articles-nav-item__img"><img src="../../../assignment/public/assets/img/blog/prev_post.jpg" alt="article-thumb"></div>
                                             <div class="articles-nav-item__info">
                                                 <div class="articles-nav-item__title">Hương tan muộn phiền - Đón Tết bình an</div>
                                                 <div class="articles-nav-item__user"> <i class="fas fa-user"></i><span>By Cloudy Thy</span></div>
@@ -129,7 +129,7 @@
                                     </li>
                                     <li class="articles-nav-item">
                                         <a class="articles-nav-item__link" href="../News/blog/3">
-                                            <div class="articles-nav-item__img"><img src="assets/img/blog/next_post.jpg" alt="article-thumb"></div>
+                                            <div class="articles-nav-item__img"><img src="../../../assignment/public/assets/img/blog/next_post.jpg" alt="article-thumb"></div>
                                             <div class="articles-nav-item__info">
                                                 <div class="articles-nav-item__title">“Festive Gift From Dak Lak” - Quà tặng Giáng Sinh từ Đắk Lắk</div>
                                                 <div class="articles-nav-item__user"> <i class="fas fa-user"></i><span>By Cloudy Thy</span></div>
@@ -149,7 +149,7 @@
                                             <article class="uk-comment">
                                                 <header class="uk-comment-header">
                                                     <div class="uk-grid-small uk-grid-divider" data-uk-grid>
-                                                        <div class="uk-width-auto@s"><img class="uk-comment-avatar" src="./assets/img/blog/img-reviews-1.png" alt></div>
+                                                        <div class="uk-width-auto@s"><img class="uk-comment-avatar" src="./../../../assignment/public/assets/img/blog/img-reviews-1.png" alt></div>
                                                         <div class="uk-width-expand@s">
                                                             <div class="uk-flex uk-flex-middle uk-margin-small-bottom">
                                                                 <h4 class="uk-comment-title uk-margin-remove">Minh Nghĩa</h4><span class="uk-text-meta uk-margin-small-left">August 20, 2021</span>
@@ -166,7 +166,7 @@
                                                     <article class="uk-comment">
                                                         <header class="uk-comment-header">
                                                             <div class="uk-grid-small uk-grid-divider" data-uk-grid>
-                                                                <div class="uk-width-auto@s"><img class="uk-comment-avatar" src="./assets/img/blog/img-reviews-2.png" alt></div>
+                                                                <div class="uk-width-auto@s"><img class="uk-comment-avatar" src="./../../../assignment/public/assets/img/blog/img-reviews-2.png" alt></div>
                                                                 <div class="uk-width-expand@s">
                                                                     <div class="uk-flex uk-flex-middle uk-margin-small-bottom">
                                                                         <h4 class="uk-comment-title uk-margin-remove">Xuân Hùng</h4><span class="uk-text-meta uk-margin-small-left">August 20, 2021</span>
@@ -185,7 +185,7 @@
                                             <article class="uk-comment">
                                                 <header class="uk-comment-header">
                                                     <div class="uk-grid-small uk-grid-divider" data-uk-grid>
-                                                        <div class="uk-width-auto@s"><img class="uk-comment-avatar" src="./assets/img/blog/img-reviews-3.png" alt></div>
+                                                        <div class="uk-width-auto@s"><img class="uk-comment-avatar" src="./../../../assignment/public/assets/img/blog/img-reviews-3.png" alt></div>
                                                         <div class="uk-width-expand@s">
                                                             <div class="uk-flex uk-flex-middle uk-margin-small-bottom">
                                                                 <h4 class="uk-comment-title uk-margin-remove">Thủy Ngọc</h4><span class="uk-text-meta uk-margin-small-left">August 20, 2021</span>

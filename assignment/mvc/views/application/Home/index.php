@@ -97,7 +97,6 @@
           <p>For more information about Cruelty Free International, Leaping Bunny and Leaping Bunny criteria, please visit www.crueltyfreeinternational.org</p>
 
           <div class="section-first-screen border-top" style="padding-bottom:30px">
-            <img src="../../../assignment/public/assets/img/pages/home/divider.png" alt="divider" style="text-align:center;">
             <h1>Nguyên liệu của Cocoon</h1>
             <div class="first-screen__slideshow">
               <div data-uk-slideshow="min-height: 400; max-height: 785; autoplay: true">
