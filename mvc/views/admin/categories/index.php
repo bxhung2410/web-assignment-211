@@ -36,8 +36,8 @@
         <tr>
           <td><?php echo $row["category_id"] ?></td>
           <td><?php echo $row["category_name"] ?></td>
-          <td><a href="#">Edit</td>
-          <td><a href="#">Delete</td>
+          <td><a href="http://localhost/Assignment/Category/edit/<?php echo $row["category_id"] ?>">Edit</td>
+          <td><a href="http://localhost/Assignment/Category/delete/<?php echo $row["category_id"] ?>">Delete</td>
         </tr>
       <?php 
         }

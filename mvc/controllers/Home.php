@@ -13,9 +13,10 @@
             echo $layout;
         }
 
-        function product(){
+        function product($id){
             //load model with ID
-            $layout = $this->view("layouts/application", ["page"=>"application/Home/product", "header"=>"shared/header", "footer"=>"shared/footer"]);
+            $product = $this->model("ProductModel");
+            $layout = $this->view("layouts/application", ["page"=>"application/Home/product", "header"=>"shared/header", "footer"=>"shared/footer", "product"=>$product->getProductWithID($id)]);
             echo $layout;
         }
 

@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Home</title>
+  <title>Cocoon</title>
   <meta content="Chernyh Mihail" name="author">
   <meta content="Spedito - All in one place" name="description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,6 +30,8 @@
   <script src="../../../assignment/public/assets/js/uikit-icons.min.js"></script>
   <script src="../../../assignment/public/assets/js/main.js"></script>
   <script src="../../../assignment/public/assets/js/fontawesome.all.min.js"></script>
+  <script src="../../../assignment/public/assets/js/jquery.easypiechart.min.js"></script>
+
 </body>
 
 </html>

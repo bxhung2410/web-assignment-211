@@ -79,14 +79,7 @@
                 <li data-uk-filter-control="[data-tags='2']"><a href="#">Body</a></li>
                 <li data-uk-filter-control="[data-tags='3']"><a href="#">Hair</a></li>
                 <li data-uk-filter-control="[data-tags='4']"><a href="#">Lips</a></li>
-              </ul><select class="uk-select" name="orderby" aria-label="Shop order">
-                <option value="menu_order" selected>Sorting by</option>
-                <option value="popularity">Sort by popularity</option>
-                <option value="rating">Sort by average rating</option>
-                <option value="date">Sort by latest</option>
-                <option value="price">Sort by price: low to high</option>
-                <option value="price-desc">Sort by price: high to low</option>
-              </select>
+
             </div>
             <ul class="js-filter uk-grid uk-grid-small uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-4@l" data-uk-grid>
             <?php 
@@ -100,11 +93,11 @@
                         <div class="product-item__media">
                           <div class="uk-inline-clip uk-transition-toggle uk-light" data-uk-lightbox="data-uk-lightbox"><img src="../../../assignment/public/assets/img<?php echo $row["avatar"] ?>" alt="Skin 1" /></div>
                         </div>
-                        <div class="product-item__title"><a href="http://localhost/assignment/Home/product/'<?php echo $row["product_id"] ?>'" style="display: inline-block; padding-bottom: 30px;"><?php echo $row["product_name"] ?></a></div>
+                        <div class="product-item__title"><a href="http://localhost/assignment/Home/product/<?php echo $row["product_id"] ?>"><?php echo $row["product_name"] ?></a></div>
                       </div>
                     <div class="product-item__info">
                       <div class="product-item__price"> <span>Price: </span><span class="value"><?php echo $row["price"] ?></span></div>
-                      <div class="product-item__addcart"> <a class="uk-button uk-button-default" href="http://localhost/assignment/Home/product/'<?php echo $row["product_id"] ?>'">Add to Cart<span data-uk-icon="cart"></span></a></div>
+                      <div class="product-item__addcart"> <a class="uk-button uk-button-default" href="http://localhost/assignment/Home/product/<?php echo $row["product_id"] ?>">Add to Cart<span data-uk-icon="cart"></span></a></div>
                     </div>
                   </div>
                   </div>

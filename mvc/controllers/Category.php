@@ -6,11 +6,18 @@
             $layout = $this->view("layouts/admin", ["admin_page"=>"admin/categories/index", "admin_header"=>"shared/admin_header", "admin_sidebar"=>"shared/admin_sidebar", "categories"=>$category->getAllCategory()]); 
         }
         function new(){
-            $layout = $this->view("layouts/admin", ["admin_page"=>"admin/categories/new", "admin_header"=>"shared/admin_header", "admin_sidebar"=>"shared/admin_sidebar"]); 
+            $category = $this->model("CategoryModel");
+            $layout = $this->view("layouts/admin", ["admin_page"=>"admin/categories/new", "admin_header"=>"shared/admin_header", "admin_sidebar"=>"shared/admin_sidebar", "categoryModel" => $category]); 
         }
-        function edit(){
-            $layout = $this->view("layouts/admin", ["admin_page"=>"admin/categories/edit", "admin_header"=>"shared/admin_header", "admin_sidebar"=>"shared/admin_sidebar"]); 
+        function edit($id){
+            $category = $this->model("CategoryModel");
+            $layout = $this->view("layouts/admin", ["admin_page"=>"admin/categories/edit", "admin_header"=>"shared/admin_header", "admin_sidebar"=>"shared/admin_sidebar", "category"=>$category->getCategoryWithId($id), "id" =>$id, "categoryModel" => $category]); 
         }
+        function delete($id){
+            $category = $this->model("CategoryModel");
+            $layout = $this->view("layouts/admin", ["admin_page"=>"admin/categories/delete", "admin_header"=>"shared/admin_header", "admin_sidebar"=>"shared/admin_sidebar", "category"=>$category->getCategoryWithId($id), "id" =>$id, "categoryModel" => $category]); 
+        }
+
 
     }
 ?>

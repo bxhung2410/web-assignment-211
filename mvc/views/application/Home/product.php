@@ -5,6 +5,11 @@
     ?>
 
 <main class="page-main">
+      <?php 
+        while ($row = mysqli_fetch_assoc($data["product"])){
+
+
+      ?>
       <div class="section-first-screen">
         <div class="first-screen__bg" style="background-image: url(../../../assignment/public/assets/img/pages/contacts/bg8.jpg)"></div>
         <div class="first-screen__content">
@@ -35,12 +40,12 @@
                     </nav>
                 </nav>
                 <div class="first-screen__box">
-                    <h2 class="first-screen__title">Catalog</h2>
+                    <h2 class="first-screen__title">Product</h2>
                     <div class="first-screen__breadcrumb">  
                         <ul class="uk-breadcrumb">
                             <li><a href="/">Home</a></li>
                             <li><a href="page-catalog.html">Catalog</a></li>
-                            <li> <span>Thạch hoa hồng dưỡng ẩm</span></li>
+                            <li> <span><?php echo $row["product_name"] ?></span></li>
                         </ul>
                     </div>
                 </div>
@@ -55,39 +60,22 @@
               <div>
                 <div class="product-full-card__gallery">
                   <div class="product-full-card__gallery-box">
-                    <li class="uk-flex uk-flex-center uk-flex-middle"><img src="../../../assignment/public/assets/img/products/skin1.png" alt="skin1"></li>
-                  </div>
-                  <div class="uk-margin-top" data-uk-slider="finite: true">
-                    <ul class="uk-thumbnav uk-slider-items uk-grid uk-grid-small uk-child-width-1-3 uk-child-width-1-4@l">
-                      <li data-uk-slideshow-item="0"><a href="#"><img src="../../../assignment/public/assets/img/products/skin1.png" alt="pizza-big"></a></li>
-                      <li data-uk-slideshow-item="1"><a href="#"><img src="../../../assignment/public/assets/img/products/skin1.png" alt="pizza-big"></a></li>
-                      <li data-uk-slideshow-item="2"><a href="#"><img src="../../../assignment/public/assets/img/products/skin1.png" alt="pizza-big"></a></li>
-                      <li data-uk-slideshow-item="3"><a href="#"><img src="../../../assignment/public/assets/img/products/skin1.png" alt="pizza-big"></a></li>
-                      <li data-uk-slideshow-item="4"><a href="#"><img src="../../../assignment/public/assets/img/products/skin1.png" alt="pizza-big"></a></li>
-                    </ul>
+                    <li class="uk-flex uk-flex-center uk-flex-middle"><img src="../../../assignment/public/assets/img/<?php echo $row["avatar"] ?>" id="product-picture" alt="skin1"></li>
                   </div>
                 </div>
               </div>
               <div>
                 <div class="product-full-card__content">
                   <div class="product-full-card__not-active">
-                    <div class="product-full-card__title">Thạch hoa hồng dưỡng ẩm</div>
-                    <div class="product-full-card__desc">Với kết cấu mọng nước mang nhiều dưỡng chất từ nước hoa hồng hữu cơ kết hợp với nam châm dưỡng ẩm Pentavitin, các axit amin
-                      và HA, thạch hoa hồng sẽ nuôi dưỡng và khóa ẩm suốt 24 giờ, mang lại làn da đầy đặn, mềm mượt và mịn màng.</div>
+                    <div class="product-full-card__title"><?php echo $row["product_name"] ?></div>
+                    <div class="product-full-card__desc"><?php echo $row["intro"] ?></div>
                     <div class="product-full-card__select">
-                      <div class="select-box select-box--size">
-                        <ul>
-                          <li><label><input type="radio" name="size"><span>100ml</span></label></li>
-                          <li><label><input type="radio" name="size"><span>150ml</span></label></li>
-                          <li><label><input type="radio" name="size" checked><span>200ml</span></label></li>
-                        </ul>
-                      </div>
                     </div>
                   </div>
                 </div>
                 <div class="product-full-card__info">
-                  <div class="product-full-card__price"> <span>Price: </span><span class="value">318.750đ</span></div>
-                  <div class="product-full-card__btns"><span class="counter"><span class="minus">-</span><input type="text" value="1" /><span class="plus">+</span></span><a class="uk-button" href="#!">Add to Cart<span data-uk-icon="cart"></span></a></div>
+                  <div class="product-full-card__price"> <span>Price: </span><span class="value" id="price-value"><?php echo $row["price"] ?>đ</span></div>
+                  <div class="product-full-card__btns"><span class="counter"><span class="minus">-</span><input type="text" value="1" id="counter-value" /><span class="plus">+</span></span><a class="uk-button" href="#!" onclick="AddToCart()">Add to Cart<span data-uk-icon="cart"></span></a></div>
                 </div>
                 <div class="product-full-card__category"><span>Category:  </span><a href="#!">Skin Care</a></div>
                 <div class="product-full-card__share"><span>Share This:</span>
@@ -108,14 +96,10 @@
               </ul>
               <ul class="uk-switcher uk-margin">
                 <li>
-                  <p>Nuôi dưỡng và khóa ẩm suốt 24 giờ</p>
-                  <p>Làm dịu da tức thì, mang lại làn da đầy đặn, mềm mượt và mịn màng và tươi mới</p>
-                  <p>Giảm sự xuất hiện của lỗ chân lông to</p>
-                  <p>Cải thiện và duy trì hàng rào bảo vệ da khỏi tác nhân từ môi trường và thời tiết</p>
+                <?php echo $row["intro"] ?>  
                 </li>
                 <li>
-                  <p>Thoa đều một lượng vừa đủ lên da mặt. Dùng 2 lần mỗi ngày, sáng và tối để đạt hiệu quả tốt nhất.</p>
-                </li>
+                <?php echo $row["huongdansudung"] ?>              </li>
                 <li>
                   <div class="section-title">
                     <div class="uk-h2">Reviews</div>
@@ -198,50 +182,179 @@
         </div>
       </div>
 
-      <div class="section-recommend-products">
-        <div class="uk-section uk-container">
-          <div class="section-title section-title--center wave french-fries">
-            <h3 class="uk-h3">Một số sản phẩm bạn có thể thích</h3>
-          </div>
-          <div class="section-content">
-            <div data-uk-slider>
-              <div class="uk-position-relative">
-                <div class="uk-slider-container uk-light">
-                  <ul class="uk-slider-items uk-grid uk-grid-small uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-4@l">
-                    <li>
-                      <div class="product-item">
-                        <div class="product-item__box">
-                          <div class="product-item__intro">
-                            <div class="product-item__not-active">
-                              <div class="product-item__media">
-                                <div class="uk-inline-clip uk-transition-toggle uk-light" data-uk-lightbox="data-uk-lightbox"><a href="../../../assignment/public/assets/img/products/skin1.png"><img src="../../../assignment/public/assets/img/products/skin1.png" alt="Skin 1" />
-                                    <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary"></div>
-                                    <div class="uk-position-center"><span class="uk-transition-fade" data-uk-icon="icon: search;"></span></div>
-                                  </a></div>
-                              </div>
-                              <div class="product-item__title"><a href="page-product.html">Thạch hoa hồng dưỡng ẩm 100ml</a></div>
-                              <div class="product-item__desc">Với kết cấu mọng nước mang nhiều dưỡng chất từ nước hoa hồng hữu cơ kết hợp với nam châm dưỡng ẩm Pentavitin, các axit amin
-                                 và HA, thạch hoa hồng sẽ nuôi dưỡng và khóa ẩm suốt 24 giờ, mang lại làn da đầy đặn, mềm mượt và mịn màng. </div>
-                            </div>
-                          <div class="product-item__info">
-                            <div class="product-item__price"> <span>Price: </span><span class="value">318.750đ</span></div>
-                            <div class="product-item__addcart"> <a class="uk-button uk-button-default" href="page-product.html">Add to Cart<span data-uk-icon="cart"></span></a></div>
-                          </div>
-                        </div>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-                <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin-medium-top"></ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
+      <?php 
+              }
+      ?>
     </main>
     <?php 
       require_once "./mvc/views/".$data["footer"].".php";
     ?>
   </div>
 
+  <script type="text/javascript">
+
+let foodTag = new Map([
+    ["Bún thịt nướng", "pho_bo"]
+]);
+
+let selectedItem = {
+    img_src: "",
+    name: "",
+    tag: "",                            //
+    price: 0,
+    quantity: 0
+}
+
+
+
+function AddToCart(){
+    let productNumber = localStorage.getItem('productNumber');
+    productNumber = parseInt(productNumber);
+
+    selectedItem.name = document.getElementsByClassName('product-full-card__title')[0].innerHTML;
+    selectedItem.price = parseFloat((document.getElementById('price-value').innerHTML));
+    selectedItem.quantity = parseInt(document.getElementById('counter-value').value);
+    selectedItem.tag = foodTag.get(selectedItem.name);
+    img = document.getElementById("product-picture");                                                   // img to data url
+    var imgCanvas = document.createElement("canvas"),
+        imgContext = imgCanvas.getContext("2d");
+    imgCanvas.width = img.width;
+    imgCanvas.height = img.height;
+    imgContext.drawImage(img, 0, 0, img.width, img.height);
+    var imgAsDataURL = imgCanvas.toDataURL("");
+
+    selectedItem.img_src = imgAsDataURL;                                                                // store image to selectedItem
+
+    console.log(selectedItem);
+
+    let productItem = localStorage.getItem('productItem');
+    productItem = JSON.parse(productItem);
+    if (productItem != null){
+        if (productItem[selectedItem.tag] === undefined){
+            productItem = {
+                ...productItem,
+                [selectedItem.tag] : selectedItem
+            }
+            localStorage.setItem('productNumber', productNumber + 1);
+        }
+        else {
+            productItem[selectedItem.tag].quantity += selectedItem.quantity;
+        }
+    }
+    else {
+        productItem = {
+            [selectedItem.tag] : selectedItem
+        };
+        localStorage.setItem('productNumber', 1);
+    }
+    localStorage.setItem('productItem', JSON.stringify(productItem));
+
+    alert("Order Received");
+}
+
+
+/*=================CART PAGE ================*/
+function MinusBtn(tag){
+    let productItem = localStorage.getItem('productItem');
+    productItem = JSON.parse(productItem);
+    productItem[tag].quantity--;
+    localStorage.setItem('productItem', JSON.stringify(productItem));
+    if (productItem[tag].quantity === 0){
+        CloseBtn(tag);
+    }
+    else DisplayCart();
+}
+
+function PlusBtn(tag){
+    let productItem = localStorage.getItem('productItem');
+    productItem = JSON.parse(productItem);
+    productItem[tag].quantity++;
+    localStorage.setItem('productItem', JSON.stringify(productItem));
+    DisplayCart();
+}
+
+function CloseBtn(tag){
+    let product_name = document.getElementsByClassName('product__' + tag)[0];
+    product_name.remove();
+
+    let productItem = localStorage.getItem('productItem');
+    productItem = JSON.parse(productItem);
+
+    delete productItem[tag];                                                // delete item
+
+    localStorage.setItem('productItem', JSON.stringify(productItem));
+
+    let productNumber = localStorage.getItem('productNumber');              // update total number of product
+    productNumber = parseInt(productNumber);
+    localStorage.setItem('productNumber', productNumber - 1);
+    if (productNumber-1 === 0){
+        console.log('x');
+        ChangeUI();
+    }
+    else DisplayCart();
+}
+
+function DisplayCart(){
+    let productItem = localStorage.getItem('productItem');
+    productItem = JSON.parse(productItem);
+    let container = document.getElementsByClassName('page-cart__list')[0];
+    let total = 0;
+
+    Object.values(productItem).map(item => {
+        let myProduct = document.getElementsByClassName('product__' + item.tag)[0];
+        if (myProduct === undefined){
+            container.innerHTML += ''
+                + '<div class="product product__' + item.tag + '">'
+                + '<h5 class="product__title">' + '<img class="product__img" src="' + item.img_src + '">' + item.name + '</h5>'
+                + '<h5 class="product__price">' + item.price + '</h5>'
+                + '<h5 class="product__quantity">' + '<span class="counter" style = "font-style: normal;"><span class="minus" onclick="MinusBtn(\'' + item.tag + '\')">-</span><input type="text" value="' + item.quantity + '" /><span onclick="PlusBtn(\'' + item.tag + '\')" class="plus">+</span></span>' + '</h5>'
+                + '<h5 class="product__total">'+ item.price * item.quantity + '<a onclick="CloseBtn(\'' + item.tag + '\')" class = "product__close"> <img src="https://img.icons8.com/ios-glyphs/30/ffffff/macos-close.png"/> </a>' + '</h5>'
+                + '</div>';
+        }
+        else {
+            let childrens = document.getElementsByClassName('product__' + item.tag)[0].childNodes;
+            childrens[2].innerHTML = '<span class="counter" style = "font-style: normal;"><span class="minus" onclick="MinusBtn(\'' + item.tag + '\')">-</span><input type="text" value="' + item.quantity + '" /><span onclick="PlusBtn(\'' + item.tag + '\')" class="plus">+</span></span>';
+            childrens[3].innerHTML = item.price * item.quantity + '<a onclick="CloseBtn(\'' + item.tag + '\')" class = "product__close"> <img src="https://img.icons8.com/ios-glyphs/30/ffffff/macos-close.png"/> </a>';
+        }
+
+        total += parseFloat(item.price * item.quantity);
+    });
+
+    var totalEle = document.getElementsByClassName('page-cart__title')[0];
+    totalEle.innerHTML = 'Total:  ' + total;
+}
+
+function ChangeUI(){
+    let productNumber = localStorage.getItem('productNumber');
+    productNumber = parseInt(productNumber);
+
+    if (productNumber > 0){
+        var btn = document.getElementById('page-cart__control-btn');
+        btn.href = '<%= payment_index_path %>';
+        btn.innerHTML = 'PAYMENT';
+        document.getElementsByClassName('page-cart__img')[0].style.display = 'none';
+        var total = document.getElementsByClassName('page-cart__title')[0];
+        total.style.textAlign = 'right';
+        total.style.marginRight = '50px';
+        document.getElementsByClassName('page-cart__list')[0].style.display = 'block';
+        DisplayCart();
+    }
+    else {
+        var btn = document.getElementById('page-cart__control-btn');
+        btn.href = '<%= pages_path %>';
+        btn.innerHTML = 'RETURN TO SHOP';
+        document.getElementsByClassName('page-cart__img')[0].style.display = 'block';
+        var total = document.getElementsByClassName('page-cart__title')[0];
+        total.innerHTML = 'Your cart is currently empty.';
+        total.style.textAlign = 'center';
+        total.style.marginRight = '0px';
+        document.getElementsByClassName('page-cart__list')[0].style.display = 'none';
+        var slotName = document.getElementsByClassName('slotname');
+        slotName[0].style.display = 'none';
+        slotName[1].style.display = 'none';
+    }
+}
+
+ChangeUI();
+</script>

@@ -68,7 +68,7 @@
                                 </div>
                                 <div class="article-intro__bottom">
                                     <div class="article-intro__tags"><i class="fas fa-tags"></i><span>SKINCARE, BODYCARE, EVENT</span></div>
-                                    <div class="article-intro__more"><a class="uk-button" href="../News/blog/2">Read More</a></div>
+                                    <div class="article-intro__more"><a class="uk-button" href="../News/blog/1">Read More</a></div>
                                 </div>
                             </div>
                         </article>
@@ -99,7 +99,7 @@
                                 </div>
                                 <div class="article-intro__bottom">
                                     <div class="article-intro__tags"><i class="fas fa-tags"></i><span>SKINCARE, ABOUTUS, ENVIRONMENT</span></div>
-                                    <div class="article-intro__more"><a class="uk-button" href="../News/blog/3">Read More</a></div>
+                                    <div class="article-intro__more"><a class="uk-button" href="../News/blog/2">Read More</a></div>
                                 </div>
                             </div>
                         </article>
@@ -121,7 +121,7 @@
                                 </div>
                                 <div class="article-intro__bottom">
                                     <div class="article-intro__tags"><i class="fas fa-tags"></i><span>SKINCARE, ABOUTUS, ENVIRONMENT</span></div>
-                                    <div class="article-intro__more"><a class="uk-button" href="../News/blog/1">Read More</a></div>
+                                    <div class="article-intro__more"><a class="uk-button" href="../News/blog/3">Read More</a></div>
                                 </div>
                             </div>
                         </article>
@@ -162,7 +162,7 @@
                                 <div class="widjet__title">Được xem nhiều gần đây</div>
                                 <ul class="list-articles">
                                     <li class="list-articles-item">
-                                        <a class="list-articles-item__link" href="./page-blog-article.html">
+                                        <a class="list-articles-item__link" href="http://localhost/assignment/News/blog/2">
                                             <div class="list-articles-item__img"><img src="../../../assignment/public/assets/img/blog/mid_post.jpg" alt="article-thumb"></div>
                                             <div class="list-articles-item__info">
                                                 <div class="list-articles-item__title">Cocoon - Tiên phong xu hướng mỹ phẩm thuần chay tại Việt Nam</div>
@@ -171,7 +171,7 @@
                                         </a>
                                     </li>
                                     <li class="list-articles-item">
-                                        <a class="list-articles-item__link" href="./page-blog-article-Prev.html">
+                                        <a class="list-articles-item__link" href="http://localhost/assignment/News/blog/1">
                                             <div class="list-articles-item__img"><img src="../../../assignment/public/assets/img/blog/prev_post.jpg" alt="article-thumb"></div>
                                             <div class="list-articles-item__info">
                                                 <div class="list-articles-item__title">Hương tan muộn phiền, đón tết bình an</div>
@@ -180,7 +180,7 @@
                                         </a>
                                     </li>
                                     <li class="list-articles-item">
-                                        <a class="list-articles-item__link" href="./page-blog-article-Next.html">
+                                        <a class="list-articles-item__link" href="http://localhost/assignment/News/blog/3">
                                             <div class="list-articles-item__img"><img src="../../../assignment/public/assets/img/blog/next_post.jpg" alt="article-thumb"></div>
                                             <div class="list-articles-item__info">
                                                 <div class="list-articles-item__title">“Festive Gift From Dak Lak” - Quà tặng Giáng Sinh từ Đắk Lắk</div>

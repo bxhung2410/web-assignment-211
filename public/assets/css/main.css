@@ -2269,11 +2269,11 @@ body.dm-light .pan-loader .shadow {
     display: block;
     position: relative;
     background-attachment: fixed;
-    background-color: #222222;
-    background-image: url(../img/pages/home/bg_features.jpg);
+    background-color: #690b0b;
+    background-image: url(../img/pages/home/bg3.jpg);
     background-position: center;
     background-size: cover;
-    color: #eeeeee;
+    color: #0e3f33;
 }
 
 .section-features:after {
@@ -2288,7 +2288,6 @@ body.dm-light .pan-loader .shadow {
     height: 719px;
     height: 37.44792vw;
     transform: translateY(-50%);
-    background-image: url(../img/pages/home/decor-features.png);
     background-position: left center;
     background-size: cover;
     content: '';

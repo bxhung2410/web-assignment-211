@@ -1,3 +1,10 @@
+<?php 
+    session_start();
+    if(!isset($_SESSION["email"])){
+        header("Location:http://localhost/assignment/User/sign_in");
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="vi">
   <head>

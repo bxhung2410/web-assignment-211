@@ -13,7 +13,7 @@
       <h1 class="page-header-title">Products<span class="badge badge-soft-dark ml-2"><?php echo mysqli_num_rows($data["products"])?></span></h1>
     </div>
     <div class="col-sm-auto">
-      <a href="http://localhost/Assignment/Products/new" class="btn btn-primary">Add Product</a>
+      <a href="http://localhost/assignment/Product/new" class="btn btn-primary">Add Product</a>
     </div>
   </div>
 </div>
@@ -51,8 +51,8 @@
           <td><?php echo $row["quantity"] ?></td>
           <td><?php echo $row["intro"] ?></td>
           <td><?php echo $row["huongdansudung"] ?></td>
-          <td><a href="#">Edit</td>
-          <td><a href="#">Delete</td>
+          <td><a href="http://localhost/assignment/Product/edit/<?php echo $row["product_id"] ?>">Edit</td>
+          <td><a href="http://localhost/assignment/Product/delete/<?php echo $row["product_id"] ?>">Delete</td>
         </tr>
       <?php 
         }
